@@ -17,6 +17,8 @@ jobs:
           
       - name: Authenticate
         uses: akita-cicd/akita@v1
+        env:
+          AUDIENCE: akita
 
       - name: Execute after authenticated
         run: |
