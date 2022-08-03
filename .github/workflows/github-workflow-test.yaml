@@ -16,7 +16,7 @@ jobs:
           echo '${{ toJSON(github.event)}}' > payload.json
           
       - name: Authenticate
-        uses: akita-cicd/akita@v1
+        uses: akita-cicd/akita@main
         env:
           AUDIENCE: akita
 
