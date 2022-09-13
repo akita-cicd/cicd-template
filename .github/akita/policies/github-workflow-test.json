@@ -1,7 +1,7 @@
 {
   "action": "github-workflow-test",
     "permissions": [{
-      "repository": "akita-cicd/service-example"
+      "repository": "akitacicd/service-example"
     }],
     "description": "github workflow test",
     "inputs": ["text"] 
