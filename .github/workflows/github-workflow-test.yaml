@@ -22,4 +22,5 @@ jobs:
 
       - name: Execute after authenticated
         run: |
+          cat payload.json | jq
           echo "Successfully authenticated ${{ github.event.client_payload.workflowInputs.text }}"
